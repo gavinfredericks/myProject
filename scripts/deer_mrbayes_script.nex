@@ -1,0 +1,27 @@
+#NEXUS
+
+Begin MrBayes;
+
+    [Method: Bayesian Inference using MrBayes]
+    [MrBayes uses MCMC methods to estimate the posterior distribution of phylogenetic trees.]
+
+    [Assumptions:]
+    [ - Sites evolve independently under the same model.]
+    [ - The chosen substitution model fits the data.]
+    [ - Chains converge to a stationary distribution.]
+
+    [Limitations:]
+    [ - Sensitive to prior choices and model mis-specification.]
+    [ - Long runtimes for large datasets or complex models.]
+
+    set autoclose=yes nowarn=yes;
+
+    execute "deer alignment.nexus";
+
+    lset nst=6 rates=gamma;
+    mcmc ngen=1000000 samplefreq=100 printfreq=100 diagnfreq=1000 nchains=4 savebrlens=yes;
+    sump burnin=2500;
+    sumt burnin=2500;
+
+End;
+
