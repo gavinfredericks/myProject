@@ -34,8 +34,7 @@
 # - Run this script from the command line: Rscript build_trees.R
 # - Commit your updated script to GitHub frequently, and submit your commit link as required.
 #
-# Author: [Your Name]
-# Date: [Today's Date]
+
 
 # Load required libraries
 library(ape)

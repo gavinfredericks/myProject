@@ -35,8 +35,6 @@ Instructions:
       git push
 5. Submit your GitHub commit link as required.
 
-Author: [Your Name]
-Date: [Today's Date]
 """
 
 import subprocess
