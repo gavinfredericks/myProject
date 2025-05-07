@@ -1,0 +1,73 @@
+#!/bin/bash
+#
+# beast2_coalescent.sh
+#
+# Reproducible Script for Bayesian Phylogenetic Inference using a Coalescent Method in BEAST2
+#
+# Chosen Method: Bayesian Skyline Coalescent Model (BEAST2)
+#
+# Description:
+# The Bayesian Skyline model is a coalescent-based tree prior that estimates past population size changes
+# without assuming a specific parametric form. It allows for flexible demographic reconstruction and is ideal
+# for datasets with one gene or marker (e.g., mitochondrial DNA). This method uses MCMC sampling to estimate
+# posterior distributions of trees and population parameters over time.
+#
+# Assumptions:
+# - The sequences are non-recombining and come from a single locus.
+# - The alignment reflects neutral evolution.
+# - The mutation model specified in the XML file accurately describes the substitution process.
+# - The sample represents a single panmictic population through time.
+#
+# Limitations:
+# - Results may be sensitive to prior settings and clock models.
+# - Long runtimes can occur for complex models or large datasets.
+# - Assumes no migration, selection, or recombination — violations can mislead inference.
+#
+# How to Use This Script:
+#
+# Prepare Your Environment:
+#
+# 1. Install BEAST2 and required tools:
+#    https://www.beast2.org/downloads/
+#
+# 2. Also install BEAUti (comes with BEAST2) to generate XML config files.
+#
+# Prepare Your Input:
+#
+# 3. Use BEAUti to load your aligned FASTA or NEXUS file and choose:
+#    - Substitution model: GTR+Gamma
+#    - Clock model: Strict or relaxed
+#    - Tree prior: Coalescent: Bayesian Skyline
+#    - MCMC settings: 10 million steps, log every 1,000
+#
+# 4. Save as: `cervidae_skyline.xml`
+#
+# Make This Script Executable:
+#
+# 5. Run:
+#      chmod +x beast2_coalescent.sh
+#
+# Execute the Script:
+#
+# 6. Run the BEAST2 analysis:
+#      ./beast2_coalescent.sh
+#
+# Version Control:
+#
+# 7. Track progress on GitHub:
+#      git add beast2_coalescent.sh cervidae_skyline.xml
+#      git commit -m "Added coalescent analysis script using BEAST2 Bayesian Skyline model"
+#      git push
+# Define path to XML config file (update this if needed)
+XML_CONFIG="cervidae_skyline.xml"
+
+# Check if file exists
+if [ ! -f "$XML_CONFIG" ]; then
+    echo "Error: XML config file not found at $XML_CONFIG"
+    exit 1
+fi
+
+echo "Running BEAST2 coalescent analysis using $XML_CONFIG"
+beast "$XML_CONFIG"
+
+echo "BEAST2 run complete. Use Tracer to inspect posterior and skyline plot."
