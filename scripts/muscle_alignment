@@ -1,0 +1,64 @@
+#!/bin/bash
+#
+# muscle_alignment.sh
+#
+# Reproducible Script for Multiple Sequence Alignment using MUSCLE
+#
+# Chosen Method: MUSCLE progressive alignment
+#
+# Description:
+# MUSCLE is a widely used tool for multiple sequence alignment based on iterative refinement
+# and progressive alignment strategies. It is fast, reliable, and suitable for many molecular datasets.
+#
+# Assumptions:
+# - Input sequences are homologous and suitable for alignment.
+# - MUSCLE is installed and available in your system PATH.
+#
+# Limitations:
+# - MUSCLE (v5) may require input redirection rather than standard flags.
+# - It may be less accurate than structure-based methods for extremely divergent sequences.
+#
+# How to Use This Script:
+#
+# Prepare Your Environment:
+#
+# 1. Install MUSCLE if not already installed:
+#      sudo apt-get install muscle
+#
+# Verify File Paths:
+#
+# 2. Confirm your input FASTA file is located at:
+#      /mnt/c/Users/gavin/Downloads/Botany563/myProject/deer_raw.fasta
+#
+# Make the Script Executable:
+#
+# 3. Run:
+#      chmod +x muscle_alignment.sh
+#
+# Run the Script:
+#
+# 4. Execute:
+#      ./muscle_alignment.sh
+#
+# Version Control:
+#
+# 5. Add the script to GitHub:
+#      git add muscle_alignment.sh
+#      git commit -m "Added reproducible alignment script using MUSCLE"
+#      git push
+# Define the file paths
+INPUT_FASTA="/mnt/c/Users/gavin/Downloads/Botany563/myProject/deer_raw.fasta"
+OUTPUT_ALIGNMENT="muscle_deer_aligned.fasta"
+
+# Check if input file exists
+if [ ! -f "$INPUT_FASTA" ]; then
+    echo "Error: Input FASTA file not found at $INPUT_FASTA"
+    exit 1
+fi
+
+echo "Running MUSCLE alignment on file: $INPUT_FASTA"
+
+# Run MUSCLE using redirected input/output
+muscle < "$INPUT_FASTA" > "$OUTPUT_ALIGNMENT"
+
+echo "MUSCLE alignment complete. Output saved to $OUTPUT_ALIGNMENT"

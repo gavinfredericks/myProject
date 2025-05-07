@@ -1,0 +1,67 @@
+#!/bin/bash
+#
+# mafft_alignment.sh
+#
+# Reproducible Script for Multiple Sequence Alignment using MAFFT
+#
+# Chosen Method: MAFFT --auto progressive alignment
+#
+# Description:
+# MAFFT is a fast and accurate multiple sequence alignment tool that offers various alignment
+# strategies based on sequence similarity. The --auto option automatically selects the best
+# alignment algorithm depending on dataset size and characteristics.
+#
+# Assumptions:
+# - Input sequences are homologous and share evolutionary ancestry.
+# - Default parameters selected by --auto are appropriate for the dataset.
+# - MAFFT is installed and accessible in your system PATH.
+#
+# Limitations:
+# - Highly divergent sequences may not align well.
+# - The resulting alignment depends heavily on input quality and sequence homology.
+#
+# How to Use This Script:
+#
+# Prepare Your Environment:
+#
+# 1. Install MAFFT if not already present:
+#      sudo apt-get install mafft
+#
+# Verify File Paths:
+#
+# 2. Confirm your input FASTA file is located at:
+#      /mnt/c/Users/gavin/Downloads/Botany563/myProject/deer_raw.fasta
+#    (or update the path in the script below).
+#
+# Make the Script Executable:
+#
+# 3. Run the following command:
+#      chmod +x mafft_alignment.sh
+#
+# Run the Script:
+#
+# 4. Execute it:
+#      ./mafft_alignment.sh
+#
+# Version Control:
+#
+# 5. Add the script to GitHub:
+#      git add mafft_alignment.sh
+#      git commit -m "Added reproducible alignment script using MAFFT"
+#      git push
+# Define the file paths
+INPUT_FASTA="/mnt/c/Users/gavin/Downloads/Botany563/myProject/deer_raw.fasta"
+OUTPUT_ALIGNMENT="mafft_deer_aligned.fasta"
+
+# Check if input file exists
+if [ ! -f "$INPUT_FASTA" ]; then
+    echo "Error: Input FASTA file not found at $INPUT_FASTA"
+    exit 1
+fi
+
+echo "Running MAFFT alignment on file: $INPUT_FASTA"
+
+# Run MAFFT with automatic mode selection
+mafft --auto "$INPUT_FASTA" > "$OUTPUT_ALIGNMENT"
+
+echo "MAFFT alignment complete. Output saved to $OUTPUT_ALIGNMENT"
