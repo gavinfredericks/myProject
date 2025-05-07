@@ -1,0 +1,391 @@
+IQ-TREE multicore version 2.4.0 for Linux ARM 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Gavinswindow (SSE4.2, 7 GB RAM)
+Command: iqtree2 -s /root/cervidae.fasta -m MFP -B 1000 --alrt 1000
+Seed:    885514 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Apr 10 13:11:53 2025
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /root/cervidae.fasta ... Fasta format detected
+Reading fasta file: done in 0.00418722 secs using 62.83% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 130 sequences with 1140 columns, 667 distinct patterns
+479 parsimony-informative, 68 singleton sites, 593 constant sites
+                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0002565 secs using 102.1% CPU
+   1  Hyemoschus_aquaticus_JN632650                0.00%    failed      0.88%
+   2  Okapia_johnstoni_JN632674                    0.00%    failed      0.00%
+   3  Antilocapra_americana_JN632597               0.00%    failed      0.23%
+   4  Moschus_moschiferus_FJ469675                 0.00%    passed     93.47%
+   5  Tragelaphus_scriptus_AF022067                0.00%    failed      3.73%
+   6  Boselaphus_scriptus_EF536350                 0.00%    passed      9.06%
+   7  Alces_alces_AJ000026                         0.00%    passed     95.14%
+   8  Alces_americanus_M98484                     73.07%    passed     41.56%
+   9  Axis_axis_AY607040                           0.00%    passed     81.79%
+  10  Axis_kuhlii_HQ893538                        39.30%    passed     59.40%
+  11  Axis_porcinus_DQ379301                       0.00%    passed     97.87%
+  12  Blastoceros_dichotomus_AY607038              0.00%    passed      5.90%
+  13  Blastocerus_dichotomus_470232025             0.00%    failed      3.40%
+  14  Blastocerus_dichotomus_JN632603              0.00%    failed      3.40%
+  15  Capreolus_capreolus_AJ000024                 0.00%    passed     96.69%
+  16  Capreolus_pygargus_AJ000025                  0.00%    passed     82.27%
+  17  Cervus_albirostris_AY044863                  0.00%    passed     68.37%
+  18  Cervus_albirostris_AF423202                  0.00%    passed     74.89%
+  19  Cervus_elaphus_JF489133                      0.00%    passed     94.50%
+  20  Cervus_elaphus_canadensis_AF423198           0.00%    passed     97.28%
+  21  Cervus_elaphus_canadensis_EF139147           0.00%    passed     95.96%
+  22  Cervus_nippon_JF893484                       0.00%    passed     38.88%
+  23  Dama_dama_AJ000022                           0.00%    passed     99.46%
+  24  Dama_mesopotamica_AY607034                   0.00%    passed     95.83%
+  25  Elaphodus_cephalophus_NC008749               0.00%    passed     91.09%
+  26  Elaphurus_davidianus_AF423194                0.00%    passed     69.92%
+  27  Hippocamelus_antisensis_DQ379307             0.18%    passed     54.96%
+  28  Hippocamelus_antisensis_JN632646             0.00%    passed     82.59%
+  29  Hippocamelus_antisensis_470235226            0.00%    passed     82.59%
+  30  Hippocamelus_antisensis_GU190862            34.82%    passed     75.58%
+  31  Hippocamelus_bisulcus_GU190863              34.82%    passed     78.44%
+  32  Hippocamelus_bisulcus_DQ789178              13.95%    passed     45.87%
+  33  Hippocamelus_bisulcus_DQ789177              13.86%    passed     45.75%
+  34  Hydropotes_inermis_AJ000028                  0.00%    passed     58.23%
+  35  Mazama_americana_DQ789217                   18.07%    passed     99.52%
+  36  Mazama_americana_DQ789209                   18.07%    passed     95.50%
+  37  Mazama_americana_DQ789221                   18.07%    passed     94.77%
+  38  Mazama_americana_DQ789201                   18.07%    passed     98.29%
+  39  Mazama_americana_DQ789219                   18.07%    passed     96.83%
+  40  Mazama_americana_DQ789204                   18.07%    passed     98.42%
+  41  Mazama_americana_JN632656                    0.00%    passed     92.94%
+  42  Mazama_americana_JN632657                    0.00%    passed     85.93%
+  43  Mazama_americana_475655896                   0.00%    passed     92.94%
+  44  Mazama_bororo_DQ789187                      18.07%    passed     81.08%
+  45  Mazama_bororo_DQ789231                      18.07%    passed     84.91%
+  46  Mazama_bororo_DQ789228                      22.89%    passed     91.34%
+  47  Mazama_gouazoupira_DQ379308                 10.18%    passed     89.21%
+  48  Mazama_gouazoupira_470235324                 0.00%    passed     52.17%
+  49  Mazama_gouazoupira_JN632658                  0.00%    passed     52.17%
+  50  Mazama_nana_DQ789214                        18.42%    passed     93.41%
+  51  Mazama_nana_DQ789210                        18.07%    passed     90.17%
+  52  Mazama_nana_DQ789227                        18.07%    passed     91.89%
+  53  Mazama_nemorivaga_685496577                  0.00%    passed     59.32%
+  54  Mazama_nemorivaga_JN632660                   0.09%    passed     76.00%
+  55  Mazama_nemorivaga_JN632659                   0.00%    passed     59.32%
+  56  Mazama_nemorivaga_DQ789205                  18.16%    passed     45.13%
+  57  Mazama_nemorivaga_DQ789206                  18.07%    passed     41.02%
+  58  Mazama_nemorivaga_DQ789226                  18.07%    passed     45.67%
+  59  Mazama_pandora_KC146954                     17.28%    passed     98.52%
+  60  Mazama_pandora_KC146955                      1.75%    passed     91.65%
+  61  Mazama_rufina_470235338                      0.00%    passed     35.93%
+  62  Mazama_rufina_JN632661                       0.00%    passed     35.93%
+  63  Mazama_temama_KC146957                       1.93%    passed     97.17%
+  64  Mazama_temama_KC146959                       2.02%    passed     94.07%
+  65  Mazama_temama_KC146956                       1.84%    passed     96.29%
+  66  Mazama_temama_KC146958                       1.75%    passed     98.93%
+  67  Megaloceros_giganteus_AM182645               0.35%    passed     89.68%
+  68  Megaloceros_giganteus_AM182644               0.00%    passed     91.53%
+  69  Muntiacus_crinifrons_AY239042                0.35%    passed     82.62%
+  70  Muntiacus_crinifrons_DQ445734                0.00%    passed     88.09%
+  71  Muntiacus_crinifrons_NC004577                0.00%    passed     83.51%
+  72  Muntiacus_crinifrons_DQ445732                0.00%    passed     86.85%
+  73  Muntiacus_crinifrons_DQ445735                0.00%    passed     79.17%
+  74  Muntiacus_crinifrons_DQ445733                0.00%    passed     87.19%
+  75  Muntiacus_feae_AF042721                     34.56%    passed     80.82%
+  76  Muntiacus_muntjak_NC004563                   0.35%    passed     93.99%
+  77  Muntiacus_muntjak_AY225986                   0.00%    passed     95.11%
+  78  Muntiacus_muntjak_AF042718                   0.00%    passed     98.50%
+  79  Muntiacus_putaoensis_EF523665               33.95%    passed     96.53%
+  80  Muntiacus_putaoensis_EF523666               33.95%    passed     94.01%
+  81  Muntiacus_putaoensis_EF523667               33.95%    passed     95.77%
+  82  Muntiacus_putaoensis_EF523668               33.95%    passed     94.97%
+  83  Muntiacus_putaoensis_EF523669               33.95%    passed     94.97%
+  84  Muntiacus_reevesi_NC004069                   0.35%    passed     99.43%
+  85  Muntiacus_reevesi_AF527537                   0.00%    passed     99.78%
+  86  Muntiacus_rooseveltorum_KJ425278             0.00%    passed     98.79%
+  87  Muntiacus_rooseveltorum_KJ425279             0.09%    passed     98.95%
+  88  Muntiacus_rooseveltorum_KJ425281             0.00%    passed     98.79%
+  89  Muntiacus_rooseveltorum_KJ425282             0.00%    passed     98.58%
+  90  Muntiacus_truongsonensis_KJ425276            0.00%    passed     99.39%
+  91  Muntiacus_truongsonensis_KJ425277            0.00%    passed     98.50%
+  92  Muntiacus_vuquangensis_FJ705435              0.00%    passed     90.16%
+  93  Muntiacus_vuquangensis_377823027             0.00%    passed     90.16%
+  94  Muntiacus_vuquangensis_AF042720              0.79%    passed     83.55%
+  95  Odocoileus_hemionus_HM222707                 0.35%    passed     89.49%
+  96  Odocoileus_hemionus_californicus_FJ188783    9.82%    passed     90.18%
+  97  Odocoileus_hemionus_columbianus_FJ188870     9.82%    passed     76.00%
+  98  Odocoileus_virginianus_DQ379370              0.35%    passed     99.03%
+  99  Odocoileus_virginianus_texanus_M98491        9.82%    passed     69.65%
+ 100  Ozotoceros_bezoarticus_DQ789199             18.07%    passed     36.80%
+ 101  Ozotoceros_bezoarticus_DQ789195             18.07%    passed     36.80%
+ 102  Ozotoceros_bezoarticus_DQ789190             18.07%    passed     54.33%
+ 103  Ozotoceros_bezoarticus_DQ789193             18.07%    passed     21.93%
+ 104  Pudu_mephistophiles_JN632691                 0.00%    passed     35.93%
+ 105  Pudu_puda_AY607039                           0.35%    passed     96.96%
+ 106  Pudu_puda_JN632692                           0.00%    passed     97.51%
+ 107  Pudu_puda_470235520                          0.00%    passed     97.51%
+ 108  Rangifer_tarandus_AB245426                   0.35%    passed     43.31%
+ 109  Rangifer_tarandus_KM506758                   0.00%    passed     34.94%
+ 110  Rangifer_tarandus_granti_AY726704            1.05%    passed     46.64%
+ 111  Rucervus_duvaucelii_AY607041                 0.00%    passed     76.77%
+ 112  Rucervus_eldi_AY157735                       0.00%    passed     95.74%
+ 113  Rucervus_schomburgki_AY607036                0.00%    passed     88.37%
+ 114  Rusa_alfredi_JN632698                        0.00%    passed     73.86%
+ 115  Rusa_alfredi_470235576                       0.00%    passed     73.86%
+ 116  Rusa_unicolor_FJ556575                       2.19%    passed     88.80%
+ 117  Rusa_timorensis_macassanicus_AF423200        0.00%    passed     80.71%
+ 118  Maz_bri_P_BMNH_1913.4.24.3                  35.44%    passed     99.58%
+ 119  Maz_bri_Q_BMNH_1908.6.24.5                  50.96%    passed     66.42%
+ 120  Maz_bri_R_BMNH_1934.9.10.228                34.65%    passed     98.56%
+ 121  Maz_chu_O_BMNH_1967.1362                    35.61%    passed     98.84%
+ 122  Mun_ath_S_BMNH_1971.3088                    34.91%    passed     68.75%
+ 123  Pud_mep_L_BMNH_1896.1.28.6                  35.18%    passed     98.22%
+ 124  Pud_mep_K_BMNH_1899.2.18.20                 42.72%    passed     96.72%
+ 125  Pud_mep_M_BMNH_1899.2.18.21                 43.68%    passed     59.48%
+ 126  Pud_mep_N_ZMB_61577                         35.44%    passed     93.19%
+ 127  Rus_mar_A_BMNH_1996.2                       35.44%    passed     52.38%
+ 128  Rus_mar_H_ZMB_75146                         40.44%    passed     68.37%
+ 129  Rus_mar_C_ZMB_75158                         36.14%    passed     84.56%
+ 130  Rus_mar_G_ZMB_20409                         36.49%    passed     73.14%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                       10.26%  6 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Blastocerus_dichotomus_JN632603 is identical to Blastocerus_dichotomus_470232025 but kept for subsequent analysis
+NOTE: Hippocamelus_antisensis_470235226 is identical to Hippocamelus_antisensis_JN632646 but kept for subsequent analysis
+NOTE: Mazama_americana_475655896 is identical to Mazama_americana_JN632656 but kept for subsequent analysis
+NOTE: Mazama_gouazoupira_JN632658 is identical to Mazama_gouazoupira_470235324 but kept for subsequent analysis
+NOTE: Mazama_nemorivaga_JN632659 is identical to Mazama_nemorivaga_685496577 but kept for subsequent analysis
+NOTE: Mazama_rufina_JN632661 is identical to Mazama_rufina_470235338 but kept for subsequent analysis
+NOTE: Muntiacus_truongsonensis_KJ425277 is identical to Muntiacus_muntjak_AF042718 but kept for subsequent analysis
+NOTE: Muntiacus_putaoensis_EF523669 is identical to Muntiacus_putaoensis_EF523668 but kept for subsequent analysis
+NOTE: Muntiacus_rooseveltorum_KJ425281 is identical to Muntiacus_rooseveltorum_KJ425278 but kept for subsequent analysis
+NOTE: Muntiacus_vuquangensis_377823027 is identical to Muntiacus_vuquangensis_FJ705435 but kept for subsequent analysis
+NOTE: Pudu_puda_470235520 is identical to Pudu_puda_JN632692 but kept for subsequent analysis
+NOTE: Rusa_alfredi_470235576 is identical to Rusa_alfredi_JN632698 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.049 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -16391.642
+2. Current log-likelihood: -16384.866
+3. Current log-likelihood: -16377.379
+4. Current log-likelihood: -16370.501
+5. Current log-likelihood: -16366.318
+6. Current log-likelihood: -16365.211
+Optimal log-likelihood: -16364.506
+Rate parameters:  A-C: 1.82662  A-G: 18.92335  A-T: 1.32497  C-G: 0.66693  C-T: 32.70095  G-T: 1.00000
+Base frequencies:  A: 0.311  C: 0.267  G: 0.129  T: 0.294
+Proportion of invariable sites: 0.488
+Gamma shape alpha: 1.474
+Parameters optimization took 6 rounds (1.885 sec)
+Time for fast ML tree search: 4.363 seconds
+
+NOTE: ModelFinder requires 30 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 1140 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         18805.044    265 38140.087    38301.391    39475.365
+  2  GTR+F+I       16684.325    266 33900.650    34063.358    35240.967
+  3  GTR+F+G4      16439.082    266 33410.163    33572.871    34750.479
+  4  GTR+F+I+G4    16364.490    267 33262.980    33427.099    34608.335
+  5  GTR+F+R2      16449.524    267 33433.049    33597.168    34778.404
+  6  GTR+F+R3      16351.092    269 33240.184    33407.150    34595.617
+  7  GTR+F+R4      16337.515    271 33217.031    33386.874    34582.541
+  8  GTR+F+R5      16337.176    273 33220.352    33393.105    34595.940
+ 14  GTR+F+I+R2    16391.259    268 33318.519    33484.057    34668.913
+ 15  GTR+F+I+R3    16349.294    270 33238.588    33406.989    34599.060
+ 16  GTR+F+I+R4    16340.121    272 33224.242    33395.536    34594.791
+ 17  GTR+F+I+R5    16340.073    274 33228.147    33402.366    34608.774
+ 29  SYM+R4        16417.007    268 33370.013    33535.552    34720.407
+ 51  TVM+F+R4      16376.998    270 33293.996    33462.397    34654.468
+ 73  TVMe+R4       16599.447    267 33732.895    33897.014    35078.250
+ 95  TIM3+F+R4     16346.556    269 33231.112    33398.077    34586.545
+117  TIM3e+R4      16475.639    266 33483.278    33645.985    34823.594
+139  TIM2+F+R4     16340.080    269 33218.159    33385.125    34573.592
+161  TIM2e+R4      16418.506    266 33369.013    33531.721    34709.329
+183  TIM+F+R4      16343.249    269 33224.497    33391.463    34579.930
+205  TIMe+R4       16469.688    266 33471.375    33634.083    34811.692
+227  TPM3u+F+R4    16387.267    268 33310.535    33476.073    34660.929
+249  TPM3+R4       16686.070    265 33902.139    34063.444    35237.417
+271  TPM2u+F+R4    16380.045    268 33296.091    33461.629    34646.485
+293  TPM2+R4       16600.492    265 33730.984    33892.288    35066.261
+315  K3Pu+F+R4     16385.898    268 33307.795    33473.334    34658.189
+337  K3P+R4        16680.996    265 33891.992    34053.296    35227.269
+359  TN+F+R4       16347.597    268 33231.194    33396.733    34581.588
+381  TNe+R4        16476.044    265 33482.088    33643.392    34817.366
+403  HKY+F+R4      16387.886    267 33309.772    33473.892    34655.128
+425  K2P+R4        16686.109    264 33900.218    34060.127    35230.457
+447  F81+F+R4      18853.594    266 38239.187    38401.895    39579.504
+469  JC+R4         19121.064    263 38768.127    38926.648    40093.327
+Akaike Information Criterion:           GTR+F+R4
+Corrected Akaike Information Criterion: TIM2+F+R4
+Bayesian Information Criterion:         TIM2+F+R4
+Best-fit model: TIM2+F+R4 chosen according to BIC
+
+All model information printed to /root/cervidae.fasta.model.gz
+CPU time for ModelFinder: 105.956 seconds (0h:1m:45s)
+Wall-clock time for ModelFinder: 107.945 seconds (0h:1m:47s)
+Generating 1000 samples for ultrafast bootstrap (seed: 885514)...
+
+NOTE: 13 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -18854.912
+2. Current log-likelihood: -16462.842
+3. Current log-likelihood: -16346.157
+4. Current log-likelihood: -16342.906
+5. Current log-likelihood: -16342.348
+6. Current log-likelihood: -16341.908
+7. Current log-likelihood: -16341.559
+8. Current log-likelihood: -16341.282
+9. Current log-likelihood: -16341.063
+10. Current log-likelihood: -16340.884
+11. Current log-likelihood: -16340.744
+12. Current log-likelihood: -16340.612
+13. Current log-likelihood: -16340.507
+Optimal log-likelihood: -16340.394
+Rate parameters:  A-C: 1.82837  A-G: 21.11806  A-T: 1.82837  C-G: 1.00000  C-T: 39.57537  G-T: 1.00000
+Base frequencies:  A: 0.311  C: 0.267  G: 0.129  T: 0.294
+Site proportion and rates:  (0.568,0.027) (0.149,1.040) (0.244,2.533) (0.039,5.457)
+Parameters optimization took 13 rounds (5.010 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.07698 secs using 98.97% CPU
+Computing ML distances took 0.077562 sec (of wall-clock time) 0.076766 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00112609 secs using 99.37% CPU
+Computing RapidNJ tree took 0.005784 sec (of wall-clock time) 0.004068 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -16506.013
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.737 second
+Computing log-likelihood of 98 initial trees ... 4.597 seconds
+Current best score: -16340.394
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -16340.242
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -16336.698
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -16336.593
+UPDATE BEST LOG-LIKELIHOOD: -16336.583
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -16336.366
+Iteration 10 / LogL: -16340.992 / Time: 0h:2m:9s
+UPDATE BEST LOG-LIKELIHOOD: -16336.359
+Iteration 20 / LogL: -16349.444 / Time: 0h:2m:18s
+Finish initializing candidate tree set (12)
+Current best tree score: -16336.359 / CPU time: 25.620
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -16336.652 / Time: 0h:2m:31s (0h:1m:58s left)
+Iteration 40 / LogL: -16337.020 / Time: 0h:2m:43s (0h:1m:37s left)
+Iteration 50 / LogL: -16337.266 / Time: 0h:2m:55s (0h:1m:20s left)
+Log-likelihood cutoff on original alignment: -16383.636
+Iteration 60 / LogL: -16336.951 / Time: 0h:3m:7s (0h:1m:6s left)
+Iteration 70 / LogL: -16336.362 / Time: 0h:3m:20s (0h:0m:52s left)
+UPDATE BEST LOG-LIKELIHOOD: -16336.358
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 80: -16336.016
+Iteration 80 / LogL: -16336.016 / Time: 0h:3m:32s (0h:2m:12s left)
+Iteration 90 / LogL: -16337.061 / Time: 0h:3m:44s (0h:1m:57s left)
+Iteration 100 / LogL: -16336.023 / Time: 0h:3m:55s (0h:1m:43s left)
+Log-likelihood cutoff on original alignment: -16383.636
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+BETTER TREE FOUND at iteration 105: -16336.009
+Iteration 110 / LogL: -16336.014 / Time: 0h:4m:8s (0h:2m:2s left)
+Iteration 120 / LogL: -16337.052 / Time: 0h:4m:20s (0h:1m:49s left)
+Iteration 130 / LogL: -16337.258 / Time: 0h:4m:32s (0h:1m:35s left)
+UPDATE BEST LOG-LIKELIHOOD: -16336.009
+Iteration 140 / LogL: -16345.731 / Time: 0h:4m:44s (0h:1m:22s left)
+UPDATE BEST LOG-LIKELIHOOD: -16336.009
+Iteration 150 / LogL: -16336.009 / Time: 0h:4m:56s (0h:1m:9s left)
+Log-likelihood cutoff on original alignment: -16383.636
+Iteration 160 / LogL: -16336.018 / Time: 0h:5m:8s (0h:0m:56s left)
+Iteration 170 / LogL: -16352.614 / Time: 0h:5m:20s (0h:0m:44s left)
+Iteration 180 / LogL: -16341.140 / Time: 0h:5m:32s (0h:0m:31s left)
+Iteration 190 / LogL: -16339.504 / Time: 0h:5m:45s (0h:0m:18s left)
+Iteration 200 / LogL: -16336.883 / Time: 0h:5m:57s (0h:0m:6s left)
+Log-likelihood cutoff on original alignment: -16383.636
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 206 ITERATIONS / Time: 0h:6m:5s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -16336.009
+2. Current log-likelihood: -16335.967
+3. Current log-likelihood: -16335.910
+4. Current log-likelihood: -16335.855
+5. Current log-likelihood: -16335.807
+6. Current log-likelihood: -16335.763
+7. Current log-likelihood: -16335.719
+8. Current log-likelihood: -16335.679
+9. Current log-likelihood: -16335.637
+10. Current log-likelihood: -16335.599
+11. Current log-likelihood: -16335.563
+12. Current log-likelihood: -16335.529
+13. Current log-likelihood: -16335.497
+14. Current log-likelihood: -16335.467
+15. Current log-likelihood: -16335.448
+16. Current log-likelihood: -16335.429
+17. Current log-likelihood: -16335.410
+18. Current log-likelihood: -16335.392
+19. Current log-likelihood: -16335.375
+20. Current log-likelihood: -16335.359
+21. Current log-likelihood: -16335.343
+22. Current log-likelihood: -16335.328
+23. Current log-likelihood: -16335.312
+24. Current log-likelihood: -16335.297
+25. Current log-likelihood: -16335.282
+26. Current log-likelihood: -16335.268
+27. Current log-likelihood: -16335.254
+28. Current log-likelihood: -16335.241
+29. Current log-likelihood: -16335.229
+30. Current log-likelihood: -16335.216
+31. Current log-likelihood: -16335.204
+32. Current log-likelihood: -16335.194
+33. Current log-likelihood: -16335.182
+Optimal log-likelihood: -16335.168
+Rate parameters:  A-C: 1.81231  A-G: 20.95160  A-T: 1.81231  C-G: 1.00000  C-T: 39.69177  G-T: 1.00000
+Base frequencies:  A: 0.311  C: 0.267  G: 0.129  T: 0.294
+Site proportion and rates:  (0.564,0.023) (0.149,0.986) (0.249,2.512) (0.039,5.536)
+Parameters optimization took 33 rounds (10.258 sec)
+BEST SCORE FOUND : -16335.168
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+1.798 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /root/cervidae.fasta.splits.nex
+Total tree length: 4.686
+
+Total number of iterations: 206
+CPU time used for tree search: 238.395 sec (0h:3m:58s)
+Wall-clock time used for tree search: 252.176 sec (0h:4m:12s)
+Total CPU time used: 361.664 sec (0h:6m:1s)
+Total wall-clock time used: 377.837 sec (0h:6m:17s)
+
+Computing bootstrap consensus tree...
+Reading input file /root/cervidae.fasta.splits.nex...
+130 taxa and 518 splits.
+Consensus tree written to /root/cervidae.fasta.contree
+Reading input trees file /root/cervidae.fasta.contree
+Log-likelihood of consensus tree: -16335.532
+
+Analysis results written to: 
+  IQ-TREE report:                /root/cervidae.fasta.iqtree
+  Maximum-likelihood tree:       /root/cervidae.fasta.treefile
+  Likelihood distances:          /root/cervidae.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /root/cervidae.fasta.splits.nex
+  Consensus tree:                /root/cervidae.fasta.contree
+  Screen log file:               /root/cervidae.fasta.log
+
+Date and Time: Thu Apr 10 13:18:12 2025

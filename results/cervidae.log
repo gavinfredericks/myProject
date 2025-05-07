@@ -1,0 +1,172 @@
+
+
+                            MrBayes 3.2.7a aarch64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "cervidae.nex"
+   UNIX line termination
+   Longest line length = 113
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 130 taxa and 1140 characters
+      Data is Dna
+      Missing data coded as ?
+      Gaps coded as -
+      Taxon   1 -> Hyemoschus_aquaticus_JN632650
+      Taxon   2 -> Okapia_johnstoni_JN632674
+      Taxon   3 -> Antilocapra_americana_JN632597
+      Taxon   4 -> Moschus_moschiferus_FJ469675
+      Taxon   5 -> Tragelaphus_scriptus_AF022067
+      Taxon   6 -> Boselaphus_scriptus_EF536350
+      Taxon   7 -> Alces_alces_AJ000026
+      Taxon   8 -> Alces_americanus_M98484
+      Taxon   9 -> Axis_axis_AY607040
+      Taxon  10 -> Axis_kuhlii_HQ893538
+      Taxon  11 -> Axis_porcinus_DQ379301
+      Taxon  12 -> Blastoceros_dichotomus_AY607038
+      Taxon  13 -> Blastocerus_dichotomus_470232025
+      Taxon  14 -> Blastocerus_dichotomus_JN632603
+      Taxon  15 -> Capreolus_capreolus_AJ000024
+      Taxon  16 -> Capreolus_pygargus_AJ000025
+      Taxon  17 -> Cervus_albirostris_AY044863
+      Taxon  18 -> Cervus_albirostris_AF423202
+      Taxon  19 -> Cervus_elaphus_JF489133
+      Taxon  20 -> Cervus_elaphus_canadensis_AF423198
+      Taxon  21 -> Cervus_elaphus_canadensis_EF139147
+      Taxon  22 -> Cervus_nippon_JF893484
+      Taxon  23 -> Dama_dama_AJ000022
+      Taxon  24 -> Dama_mesopotamica_AY607034
+      Taxon  25 -> Elaphodus_cephalophus_NC008749
+      Taxon  26 -> Elaphurus_davidianus_AF423194
+      Taxon  27 -> Hippocamelus_antisensis_DQ379307
+      Taxon  28 -> Hippocamelus_antisensis_JN632646
+      Taxon  29 -> Hippocamelus_antisensis_470235226
+      Taxon  30 -> Hippocamelus_antisensis_GU190862
+      Taxon  31 -> Hippocamelus_bisulcus_GU190863
+      Taxon  32 -> Hippocamelus_bisulcus_DQ789178
+      Taxon  33 -> Hippocamelus_bisulcus_DQ789177
+      Taxon  34 -> Hydropotes_inermis_AJ000028
+      Taxon  35 -> Mazama_americana_DQ789217
+      Taxon  36 -> Mazama_americana_DQ789209
+      Taxon  37 -> Mazama_americana_DQ789221
+      Taxon  38 -> Mazama_americana_DQ789201
+      Taxon  39 -> Mazama_americana_DQ789219
+      Taxon  40 -> Mazama_americana_DQ789204
+      Taxon  41 -> Mazama_americana_JN632656
+      Taxon  42 -> Mazama_americana_JN632657
+      Taxon  43 -> Mazama_americana_475655896
+      Taxon  44 -> Mazama_bororo_DQ789187
+      Taxon  45 -> Mazama_bororo_DQ789231
+      Taxon  46 -> Mazama_bororo_DQ789228
+      Taxon  47 -> Mazama_gouazoupira_DQ379308
+      Taxon  48 -> Mazama_gouazoupira_470235324
+      Taxon  49 -> Mazama_gouazoupira_JN632658
+      Taxon  50 -> Mazama_nana_DQ789214
+      Taxon  51 -> Mazama_nana_DQ789210
+      Taxon  52 -> Mazama_nana_DQ789227
+      Taxon  53 -> Mazama_nemorivaga_685496577
+      Taxon  54 -> Mazama_nemorivaga_JN632660
+      Taxon  55 -> Mazama_nemorivaga_JN632659
+      Taxon  56 -> Mazama_nemorivaga_DQ789205
+      Taxon  57 -> Mazama_nemorivaga_DQ789206
+      Taxon  58 -> Mazama_nemorivaga_DQ789226
+      Taxon  59 -> Mazama_pandora_KC146954
+      Taxon  60 -> Mazama_pandora_KC146955
+      Taxon  61 -> Mazama_rufina_470235338
+      Taxon  62 -> Mazama_rufina_JN632661
+      Taxon  63 -> Mazama_temama_KC146957
+      Taxon  64 -> Mazama_temama_KC146959
+      Taxon  65 -> Mazama_temama_KC146956
+      Taxon  66 -> Mazama_temama_KC146958
+      Taxon  67 -> Megaloceros_giganteus_AM182645
+      Taxon  68 -> Megaloceros_giganteus_AM182644
+      Taxon  69 -> Muntiacus_crinifrons_AY239042
+      Taxon  70 -> Muntiacus_crinifrons_DQ445734
+      Taxon  71 -> Muntiacus_crinifrons_NC004577
+      Taxon  72 -> Muntiacus_crinifrons_DQ445732
+      Taxon  73 -> Muntiacus_crinifrons_DQ445735
+      Taxon  74 -> Muntiacus_crinifrons_DQ445733
+      Taxon  75 -> Muntiacus_feae_AF042721
+      Taxon  76 -> Muntiacus_muntjak_NC004563
+      Taxon  77 -> Muntiacus_muntjak_AY225986
+      Taxon  78 -> Muntiacus_muntjak_AF042718
+      Taxon  79 -> Muntiacus_putaoensis_EF523665
+      Taxon  80 -> Muntiacus_putaoensis_EF523666
+      Taxon  81 -> Muntiacus_putaoensis_EF523667
+      Taxon  82 -> Muntiacus_putaoensis_EF523668
+      Taxon  83 -> Muntiacus_putaoensis_EF523669
+      Taxon  84 -> Muntiacus_reevesi_NC004069
+      Taxon  85 -> Muntiacus_reevesi_AF527537
+      Taxon  86 -> Muntiacus_rooseveltorum_KJ425278
+      Taxon  87 -> Muntiacus_rooseveltorum_KJ425279
+      Taxon  88 -> Muntiacus_rooseveltorum_KJ425281
+      Taxon  89 -> Muntiacus_rooseveltorum_KJ425282
+      Taxon  90 -> Muntiacus_truongsonensis_KJ425276
+      Taxon  91 -> Muntiacus_truongsonensis_KJ425277
+      Taxon  92 -> Muntiacus_vuquangensis_FJ705435
+      Taxon  93 -> Muntiacus_vuquangensis_377823027
+      Taxon  94 -> Muntiacus_vuquangensis_AF042720
+      Taxon  95 -> Odocoileus_hemionus_HM222707
+      Taxon  96 -> Odocoileus_hemionus_californicus_FJ188783
+      Taxon  97 -> Odocoileus_hemionus_columbianus_FJ188870
+      Taxon  98 -> Odocoileus_virginianus_DQ379370
+      Taxon  99 -> Odocoileus_virginianus_texanus_M98491
+      Taxon 100 -> Ozotoceros_bezoarticus_DQ789199
+      Taxon 101 -> Ozotoceros_bezoarticus_DQ789195
+      Taxon 102 -> Ozotoceros_bezoarticus_DQ789190
+      Taxon 103 -> Ozotoceros_bezoarticus_DQ789193
+      Taxon 104 -> Pudu_mephistophiles_JN632691
+      Taxon 105 -> Pudu_puda_AY607039
+      Taxon 106 -> Pudu_puda_JN632692
+      Taxon 107 -> Pudu_puda_470235520
+      Taxon 108 -> Rangifer_tarandus_AB245426
+      Taxon 109 -> Rangifer_tarandus_KM506758
+      Taxon 110 -> Rangifer_tarandus_granti_AY726704
+      Taxon 111 -> Rucervus_duvaucelii_AY607041
+      Taxon 112 -> Rucervus_eldi_AY157735
+      Taxon 113 -> Rucervus_schomburgki_AY607036
+      Taxon 114 -> Rusa_alfredi_JN632698
+      Taxon 115 -> Rusa_alfredi_470235576
+      Taxon 116 -> Rusa_unicolor_FJ556575
+      Taxon 117 -> Rusa_timorensis_macassanicus_AF423200
+      Taxon 118 -> Maz_bri_P_BMNH_1913.4.24.3
+      Taxon 119 -> Maz_bri_Q_BMNH_1908.6.24.5
+      Taxon 120 -> Maz_bri_R_BMNH_1934.9.10.228
+      Taxon 121 -> Maz_chu_O_BMNH_1967.1362
+      Taxon 122 -> Mun_ath_S_BMNH_1971.3088
+      Taxon 123 -> Pud_mep_L_BMNH_1896.1.28.6
+      Taxon 124 -> Pud_mep_K_BMNH_1899.2.18.20
+      Taxon 125 -> Pud_mep_M_BMNH_1899.2.18.21
+      Taxon 126 -> Pud_mep_N_ZMB_61577
+      Taxon 127 -> Rus_mar_A_BMNH_1996.2
+      Taxon 128 -> Rus_mar_H_ZMB_75146
+      Taxon 129 -> Rus_mar_C_ZMB_75158
+      Taxon 130 -> Rus_mar_G_ZMB_20409
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1745695745
+      Setting output file names to "cervidae.nex.run<i>.<p|t>"
+   Exiting data block
+   Reached end of file
+
+   Tasks completed, exiting program because mode is noninteractive
+   To return control to the command line after completion of file processing, 
+   set mode to interactive with 'mb -i <filename>' (i is for interactive)
+   or use 'set mode=interactive'
+
